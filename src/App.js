@@ -15,11 +15,20 @@ class App extends Component {
     return (
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-8">
+          <div className="col-md-10">
             {/* <Header /> */}
             <div className="card">
-              <div className="card-header bg-white">
-                <h4 style={{ color: "#f60" }}> HackerWeb</h4>
+              <div className="card-header bg-white border-bottom-0">
+                <section
+                  style={{
+                    color: "#f60",
+                    fontSize: "20px",
+                    fontWeight: "600"
+                  }}
+                >
+                  {" "}
+                  Hacker News
+                </section>
               </div>
               <div className="card-body p-0">
                 <NewsItems />
