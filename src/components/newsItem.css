@@ -1,0 +1,16 @@
+.news-item-title {
+  color: #888;
+  font-size: 16px;
+}
+
+.news-item-url {
+  font-size: 14px;
+}
+.news-item-url a {
+  color: #4c566c;
+}
+
+.news-item-footer {
+  color: #888;
+  font-size: 16px;
+}

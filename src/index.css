@@ -6,9 +6,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
+  background-color: #f6f6ef;
+}
+/* 
+#f60, //main coloe
+#fafafa, //background color for cards
+#f6f6ef, //background color body
+#666, #888 //text color
+
+*/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+bg-orange {
+  background-color: #f60;
+}
+text-orange {
+  color: #f60 !important;
+}
+
+bg-primary-light {
+  background-color: #fafafa !important;
 }
